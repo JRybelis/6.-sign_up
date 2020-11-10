@@ -3,13 +3,13 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 # Sign-up
-### 19 group project
+### BIT FSWD 19th-group project
 
-This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
+This project is for educational porpuses only. Pull request are welcome, but BIT student collaboration takes priority. Thank you for your cooperation!
 
-Site published at https://front-end-by-rimantas.github.io/19-grupe-sign-up/
+Site published at https://jrybelis.github.io/6.-sign_up/
 
-Design: [Sign up modal](https://cdn.discordapp.com/attachments/648536139677958156/648860801997996052/day1dr.png)
+Design: [Sign-up page modal](https://cdn.discordapp.com/attachments/648536139677958156/648860801997996052/day1dr.png)
 
 
 ## Project features
@@ -18,4 +18,4 @@ Design: [Sign up modal](https://cdn.discordapp.com/attachments/64853613967795815
 - background images
 
 ## Authors
-[Rimantas](https://github.com/belauzas)
+[Jokūbas](https://github.com/JRybelis)
