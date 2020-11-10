@@ -8,4 +8,9 @@
     background-color: #0065D9;
     font-size: 18px;
     color: #E2FFFF;
+    box-shadow: 0 4px 4px #0008;
+    }
+    .btn:hover {
+        box-shadow: 0 4px #0004;
+        cursor: pointer;
     }
