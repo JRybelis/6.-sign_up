@@ -19,6 +19,8 @@ body {
             bottom: 40px;
             color: #E2FFFF;
             background-color: #5B7ED9;
+            background-image: url(../img/kalnas.jpg);
+            backgr
         }
             .page-title {
                 display: inline-block;
