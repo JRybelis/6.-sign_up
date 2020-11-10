@@ -1,48 +1,99 @@
 body {
-
+    background-color: #75C4D9;
 }
     .container {
-
+        display: inline-block;
+        width: 800px;
+        margin-left: calc((100% - 800px) / 2);
+        margin-top: 100px;
+        background-color: red;
     }
         .left-column {
-        
+            display: inline-block;
+            width: 40%;
+            float: left;
+            margin-top: 40px;
+            padding: 40px;
+            padding-bottom: 20px;
+            color: #E2FFFF;
+            background-color: #5B7ED9;
         }
             .page-title {
-
+                display: inline-block;
+                width: 100%;
             }
             .bottom-links {
-
-            }
+                display: inline-block;
+                width: 100%;
+                }
                 .bottom-links > .link {
-
+                    color: #E2FFFF;
                 }
                 .bottom-links > .text {
 
                 }
         .right-column {
-
+            display: inline-block;
+            width: 60%;
+            float: left;
+            padding: 60px;
+            padding-bottom: 40px;
+            background-color: white;
         }
             .close {
 
             }
             .form {
-
+                display: inline-block;
+                width: 100%;
             }
                 .form-row {
-
+                    display: inline-block;
+                    width: 100%;
+                    margin-bottom: 30px;
+                }
+                    /* .margin-bottom-zero {
+                        margin-bottom: 0;
+                    } */
+                .form-row:last-of-type{
+                    margin-bottom: 0;
                 }
                     .label {
-
+                        display: inline-block;
+                        width: 100%;
+                        margin-bottom: 5px;
+                        font-size: 13px;
+                        line-height: 15px;
+                        text-transform: uppercase;
                     }
                     .input {
-
+                        display: inline-block;
+                        width: 100%;
+                        margin-bottom: 5px;
+                        font-size: 18px;
+                        line-height: 25px;
                     }
                     .btn {
-
-                    }
+                        display:inline-block;
+                        padding: 10px;
+                        padding-left: 40px;
+                        padding-right: 40px;
+                        line-height: 20px;
+                        border-radius: 20px;
+                        background-color: #0065D9;
+                        font-size: 18px;
+                        color: #E2FFFF;
+                        }
                     .form-row > .text {
-
+                        display: inline-block;
+                        line-height: 20px;
+                        font-size: 18px;
+                        padding: 10px;
                     }
                     .form-row > .link {
-
+                        display: inline-block;
+                        line-height: 20px;
+                        font-size: 18px;
+                        padding: 10px;
+                        color: #0065D9;
                     }
