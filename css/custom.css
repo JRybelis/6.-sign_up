@@ -7,8 +7,7 @@ body {
         margin-left: calc((100% - 800px) / 2);
         margin-top: 100px;
         position: relative;
-        background-color: red;
-    }
+        }
         .left-column {
             display: inline-block;
             width: 40%;
