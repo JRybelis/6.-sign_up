@@ -1,12 +1,24 @@
 body {
     background-color: #75C4D9;
-}
+    }
+    .background {
+        height: 100vh;
+        background-image: url(../img/kalnas.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: left;
+        background-position-y: center;
+        filter: blur(20px);
+    }
     .container {
         display: inline-block;
         width: 800px;
-        margin-left: calc((100% - 800px) / 2);
-        margin-top: 100px;
-        position: relative;
+        position: absolute;
+        /* top: calc((100vh - 450px) / 2);
+        left: calc((100% - 880px) / 2); */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         }
         .left-column {
             display: inline-block;
@@ -20,7 +32,10 @@ body {
             color: #E2FFFF;
             background-color: #5B7ED9;
             background-image: url(../img/kalnas.jpg);
-            background-repeat: round;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-x: left;
+            background-position-y: center;
         }
             .page-title {
                 display: inline-block;
