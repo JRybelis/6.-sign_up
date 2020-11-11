@@ -1,0 +1,79 @@
+body {
+    background-color: #75C4D9;
+    }
+    .background {
+        height: 100vh;
+        background-image: url(../img/kalnas.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: left;
+        background-position-y: center;
+        filter: blur(20px);
+    }
+    .container {
+        display: inline-block;
+        width: 800px;
+        position: absolute;
+        /* top: calc((100vh - 450px) / 2);
+        left: calc((100% - 880px) / 2); */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
+        .left-column {
+            display: inline-block;
+            width: 40%;
+            float: left;
+            padding: 40px;
+            padding-bottom: 20px;
+            position: absolute;
+            top: 30px;
+            bottom: 40px;
+            color: #E2FFFF;
+            background-color: #5B7ED9;
+            background-image: url(../img/kalnas.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-x: left;
+            background-position-y: center;
+        }
+            .page-title {
+                display: inline-block;
+                width: 100%;
+            }
+            .bottom-links {
+                display: inline-block;
+                width: 100%;
+                position: absolute;
+                bottom: 20px;
+                left: 40px;
+                right: 40px;
+                }
+                .bottom-links > .link {
+                    color: #E2FFFF;
+                }
+                .bottom-links > .text {
+
+                }
+        .right-column {
+            display: inline-block;
+            width: 60%;
+            float: right;
+            padding: 60px;
+            padding-bottom: 40px;
+            position: relative;
+            background-color: white;
+        }
+            .close {
+                display: inline-block;
+                width: 60px;
+                line-height: 60px;
+                text-align: center;
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+            .close:hover {
+                font-weight: 700;
+            }
+            
